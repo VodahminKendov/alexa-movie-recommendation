@@ -1,0 +1,503 @@
+{
+  "intents": [
+    {
+      "name": "AMAZON.CancelIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.HelpIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.StopIntent",
+      "samples": []
+    },
+    {
+      "name": "recommendMovie",
+      "samples": [
+        "for a {genre}  film",
+        "for a {genre} movie",
+        "for a {genre} film starring {actor}",
+        "for a {genre} movie starring {actor}",
+        "for a film starring {actor}",
+        "for a movie starring {actor}",
+        "for a film with {actor} in it",
+        "for a movie with {actor} in it"
+      ],
+      "slots": [
+        {
+          "name": "genre",
+          "type": "genre",
+          "samples": []
+        },
+        {
+          "name": "actor",
+          "type": "actor",
+          "samples": []
+        }
+      ]
+    }
+  ],
+  "types": [
+    {
+      "name": "actor",
+      "values": [
+        {
+          "name": {
+            "value": "Robert De Niro"
+          }
+        },
+        {
+          "name": {
+            "value": "Jack Nicholson"
+          }
+        },
+        {
+          "name": {
+            "value": "Tom Hanks"
+          }
+        },
+        {
+          "name": {
+            "value": "Marlon Brando"
+          }
+        },
+        {
+          "name": {
+            "value": "Leonardo DiCaprio"
+          }
+        },
+        {
+          "name": {
+            "value": "Humphrey Bogart"
+          }
+        },
+        {
+          "name": {
+            "value": "Johnny Depp"
+          }
+        },
+        {
+          "name": {
+            "value": "Al Pacino"
+          }
+        },
+        {
+          "name": {
+            "value": "Denzel Washington"
+          }
+        },
+        {
+          "name": {
+            "value": "Laurence Olivier"
+          }
+        },
+        {
+          "name": {
+            "value": "Brad Pitt"
+          }
+        },
+        {
+          "name": {
+            "value": "Daniel Day-Lewis"
+          }
+        },
+        {
+          "name": {
+            "value": "Tom Cruise"
+          }
+        },
+        {
+          "name": {
+            "value": "Cary Grant"
+          }
+        },
+        {
+          "name": {
+            "value": "Dustin Hoffman"
+          }
+        },
+        {
+          "name": {
+            "value": "Clark Gable"
+          }
+        },
+        {
+          "name": {
+            "value": "Sean Penn"
+          }
+        },
+        {
+          "name": {
+            "value": "Christian Bale"
+          }
+        },
+        {
+          "name": {
+            "value": "Gregory Peck"
+          }
+        },
+        {
+          "name": {
+            "value": "Harrison Ford"
+          }
+        },
+        {
+          "name": {
+            "value": "Spencer Tracy"
+          }
+        },
+        {
+          "name": {
+            "value": "George Clooney"
+          }
+        },
+        {
+          "name": {
+            "value": "Charlton Heston"
+          }
+        },
+        {
+          "name": {
+            "value": "Anthony Hopkins"
+          }
+        },
+        {
+          "name": {
+            "value": "Russell Crowe"
+          }
+        },
+        {
+          "name": {
+            "value": "Katharine Hepburn"
+          }
+        },
+        {
+          "name": {
+            "value": "Meryl Streep"
+          }
+        },
+        {
+          "name": {
+            "value": "Ingrid Bergman"
+          }
+        },
+        {
+          "name": {
+            "value": "Marilyn Monroe"
+          }
+        },
+        {
+          "name": {
+            "value": "Jennifer Lawrence"
+          }
+        },
+        {
+          "name": {
+            "value": "Kate Winslet"
+          }
+        },
+        {
+          "name": {
+            "value": "Elizabeth Taylor"
+          }
+        },
+        {
+          "name": {
+            "value": "Cate Blanchett"
+          }
+        },
+        {
+          "name": {
+            "value": "Audrey Hepburn"
+          }
+        },
+        {
+          "name": {
+            "value": "Helen Mirren"
+          }
+        },
+        {
+          "name": {
+            "value": "Bette Davis"
+          }
+        },
+        {
+          "name": {
+            "value": "Nicole Kidman"
+          }
+        },
+        {
+          "name": {
+            "value": "Sandra Bullock"
+          }
+        },
+        {
+          "name": {
+            "value": "Natalie Portman"
+          }
+        },
+        {
+          "name": {
+            "value": "Jodie Foster"
+          }
+        },
+        {
+          "name": {
+            "value": "Judi Dench"
+          }
+        },
+        {
+          "name": {
+            "value": "Amy Adams"
+          }
+        },
+        {
+          "name": {
+            "value": "Julia Roberts"
+          }
+        },
+        {
+          "name": {
+            "value": "Emma Thompson"
+          }
+        },
+        {
+          "name": {
+            "value": "Diane Keaton"
+          }
+        },
+        {
+          "name": {
+            "value": "Grace Kelly"
+          }
+        },
+        {
+          "name": {
+            "value": "Shirley MacLaine"
+          }
+        },
+        {
+          "name": {
+            "value": "Reese Witherspoon"
+          }
+        },
+        {
+          "name": {
+            "value": "Charlize Theron"
+          }
+        },
+        {
+          "name": {
+            "value": "Judy Garland"
+          }
+        },
+        {
+          "name": {
+            "value": "John Wayne"
+          }
+        },
+        {
+          "name": {
+            "value": "Matt Damon"
+          }
+        },
+        {
+          "name": {
+            "value": "Robin Williams"
+          }
+        },
+        {
+          "name": {
+            "value": "Sean Connery"
+          }
+        },
+        {
+          "name": {
+            "value": "Liam Neeson"
+          }
+        },
+        {
+          "name": {
+            "value": "Bruce Willis"
+          }
+        },
+        {
+          "name": {
+            "value": "Will Smith"
+          }
+        },
+        {
+          "name": {
+            "value": "Angelina Jolie"
+          }
+        },
+        {
+          "name": {
+            "value": "Anne Hathaway"
+          }
+        },
+        {
+          "name": {
+            "value": "Samuel L. Jackson"
+          }
+        },
+        {
+          "name": {
+            "value": "Morgan Freeman"
+          }
+        },
+        {
+          "name": {
+            "value": "Christopher Walken"
+          }
+        },
+        {
+          "name": {
+            "value": "Bill Murray"
+          }
+        },
+        {
+          "name": {
+            "value": "Robert Downey Jr."
+          }
+        },
+        {
+          "name": {
+            "value": "Nicolas Cage"
+          }
+        },
+        {
+          "name": {
+            "value": "Mark Wahlberg"
+          }
+        },
+        {
+          "name": {
+            "value": "Sylvester Stallone"
+          }
+        },
+        {
+          "name": {
+            "value": "Arnold Schwarzenegger"
+          }
+        },
+        {
+          "name": {
+            "value": "Ben Stiller"
+          }
+        },
+        {
+          "name": {
+            "value": "Drew Barrymore"
+          }
+        },
+        {
+          "name": {
+            "value": "Sigourney Weaver"
+          }
+        }
+      ]
+    },
+    {
+      "name": "genre",
+      "values": [
+        {
+          "name": {
+            "value": "Action"
+          }
+        },
+        {
+          "name": {
+            "value": "Adventure"
+          }
+        },
+        {
+          "name": {
+            "value": "Animation"
+          }
+        },
+        {
+          "name": {
+            "value": "Comedy"
+          }
+        },
+        {
+          "name": {
+            "value": "Crime"
+          }
+        },
+        {
+          "name": {
+            "value": "Documentary"
+          }
+        },
+        {
+          "name": {
+            "value": "Drama"
+          }
+        },
+        {
+          "name": {
+            "value": "Family"
+          }
+        },
+        {
+          "name": {
+            "value": "Fantasy"
+          }
+        },
+        {
+          "name": {
+            "value": "History"
+          }
+        },
+        {
+          "name": {
+            "value": "Horror"
+          }
+        },
+        {
+          "name": {
+            "value": "Music"
+          }
+        },
+        {
+          "name": {
+            "value": "Mystery"
+          }
+        },
+        {
+          "name": {
+            "value": "Romance"
+          }
+        },
+        {
+          "name": {
+            "value": "Science Fiction"
+          }
+        },
+        {
+          "name": {
+            "value": "TV Movie"
+          }
+        },
+        {
+          "name": {
+            "value": "Thriller"
+          }
+        },
+        {
+          "name": {
+            "value": "War"
+          }
+        },
+        {
+          "name": {
+            "value": "Western"
+          }
+        }
+      ]
+    }
+  ]
+}

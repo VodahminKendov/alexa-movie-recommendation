@@ -1,0 +1,8 @@
+recommendMovie for a {genre}  film
+recommendMovie for a {genre} movie
+recommendMovie for a {genre} film starring {actor}
+recommendMovie for a {genre} movie starring {actor}
+recommendMovie for a film starring {actor}
+recommendMovie for a movie starring {actor}
+recommendMovie for a film with {actor} in it
+recommendMovie for a movie with {actor} in it
