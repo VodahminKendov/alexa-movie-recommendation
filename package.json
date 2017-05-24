@@ -1,15 +1,26 @@
 {
   "name": "alexa-movie-recommendation",
   "version": "1.0.0",
-  "description": "Recommend a movie using Amazon Alexa",
+  "description": "recommend movies with Alexa",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VodahminKendov/alexa-movie-recommendation.git"
+  },
+  "keywords": [
+    "Alexa"
+  ],
   "author": "Mischa Hedington",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VodahminKendov/alexa-movie-recommendation/issues"
+  },
+  "homepage": "https://github.com/VodahminKendov/alexa-movie-recommendation#readme",
   "dependencies": {
     "alexa-sdk": "^1.0.9",
-    "request": "^2.81.0",
+    "request": "^2.81.0"
   }
 }
